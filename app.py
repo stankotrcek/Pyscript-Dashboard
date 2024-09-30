@@ -7,7 +7,7 @@ from pyscript import display
 import warnings
 warnings.filterwarnings("ignore")
 
-url = "https://raw.githubusercontent.com/DisephD/Pyscript-Dashboad/main/data/water_data_processed%20(1).csv"
+url = "https://raw.githubusercontent.com/stankotrcek/Pyscript-Dashboad/main/data/water_data_processed%20(1).csv"
 
 data = pd.read_csv(open_url(url), parse_dates=["Date"])
 water_data = data
